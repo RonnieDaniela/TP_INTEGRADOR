@@ -1,0 +1,15 @@
+@import "base/reset";
+@import "base/typography";
+@import "layout/header";
+@import "pages/index";
+@import "components/card";
+@import "components/card-nosotros";
+@import "pages/nosotros";
+@import "pages/contacto";
+
+*{
+    background-color: rgba(118, 118, 118, 0.636);
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

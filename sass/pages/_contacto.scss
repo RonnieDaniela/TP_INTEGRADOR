@@ -1,0 +1,99 @@
+.formulario-contacto{
+    background: url(/img/productos/contacto.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background-color: transparent;
+    width: max-content;
+    height: max-content;
+    &:nth-child(5n + 1) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+    }
+}
+.carga-datos{
+    background: transparent;
+    padding: 20px;
+    margin: 10px;
+}
+.input-largo {
+    background: transparent;
+    width: 100%;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    
+    &:hover,
+    &:focus{
+        background-color: pink;
+        color: black;
+    }
+}
+.input-largo-area {
+    background: transparent;
+    padding: 10px;
+    height: 200px;
+}
+label{
+    background: transparent;
+    padding: 10px;
+}
+#datos{
+    background: transparent;
+    text-align: center;
+}
+#contacto{
+    background: transparent;
+    text-align: center;
+}
+#tipo{
+    background: transparent;
+    text-align: center;
+}
+#terminos{
+    background: transparent;
+    text-align: center;
+    margin-left: 50px;
+}
+.sub-titulos{
+    background: transparent;
+    text-align: center;
+    font-size:xx-large;
+    font-weight:bold;
+}
+.boton{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+#submit{
+    background: transparent;
+    border:3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+    &:nth-child(5n + 1) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+    }
+}
+#reset{
+    background: transparent;
+    border:3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+    &:nth-child(5n + 2) {
+        background-image: linear-gradient(to top, pink 0%, rebeccapurple 50%);
+    }
+}
